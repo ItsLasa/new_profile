@@ -17,7 +17,7 @@ function navbar() {
       
       </div>
       <div className='flex gap-2 items-center'>
-      <h1 className='text-3xl font-bold font-jaro hover:text-4xl'>Manoj</h1>
+      <h1 className='text-3xl font-bold font-jaro hover:text-4xl'>Manoj Lasantha</h1>
       
       <GiHamburgerMenu className='opacity-45 hover:text-2xl visible group-hover:invisible' />
       </div>
