@@ -115,7 +115,7 @@ function favourite() {
             />
           </div>
           <div>
-            <h1 className="pt-2 ">Building Resilient Frontend Architecture <br /> • Monica Lent • GOTO 2019</h1>
+            <h1 className="pt-2 ">-Building Resilient Frontend Architecture <br /> • Monica Lent • GOTO 2019</h1>
           </div>
         </div>
 
@@ -133,7 +133,7 @@ function favourite() {
             />
           </div>
           <div>
-            <h1 className="pt-2 ">caling Yourself • Scott Hanselman <br /> • GOTO 2012</h1>
+            <h1 className="pt-2 ">Caling Yourself • Scott Hanselman <br /> • GOTO 2012</h1>
           </div>
         </div>
 
