@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { BackgroundBeams } from "../app/components/ui/background-beams";
 import Navbar from '../app/components/navbar';
-
+import Fav from '../app/components/favourite';
 import { WobbleCard } from "../app/components/ui/wobble-card";
 
 export default function Home() {
@@ -52,29 +52,36 @@ export default function Home() {
       >
         <div className="max-w-xs">
           <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Gippity AI powers the entire universe
+           My Tech Stack
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+            Tools I Enjoy Using
           </p>
         </div>
         <Image
-          src="/linear.webp"
-          width={500}
-          height={500}
+          src="/tech.avif"
+          width={700}
+          height={200}
+          alt="linear demo image"
+          className="absolute -right-4 lg:-right-[20%]  filter -bottom-10 object-contain rounded-2xl"
+        />
+      </WobbleCard>
+      <WobbleCard containerClassName="col-span-1 min-h-[300px] flex ">
+        <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+         Tech Stack
+        </h2>
+        <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+         Tools i enjoy using
+        </p>
+        <Image
+          src="/tech.avif"
+          width={600}
+          height={600}
           alt="linear demo image"
           className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
-      <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-        <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-          No shirt, no shoes, no weapons.
-        </h2>
-        <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          If someone yells “stop!”, goes limp, or taps out, the fight is over.
-        </p>
-      </WobbleCard>
+
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-sm">
           <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
@@ -94,6 +101,9 @@ export default function Home() {
           className="absolute -right-10 md:-right-[40%] lg:-right-[20%] -bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
+
+
+      <Fav/>
     </div>
       <BackgroundBeams/>
     </div>

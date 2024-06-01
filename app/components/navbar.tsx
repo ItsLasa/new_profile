@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 function navbar() {
   return (
     <div>
-       <nav className="group relative z-20 flex gap-3 justify-center items-center items-center  mb-20 text-white">
+       <nav className=" bg-[#20202093] border-[1px] border-[#ffd04e] rounded-xl px-10 py-1 group relative z-20 flex gap-3 justify-center items-center items-center  mb-20 text-white">
       <div className="w-12 h-12 overflow-hidden">
         <video
           src="/profile.mp4"
